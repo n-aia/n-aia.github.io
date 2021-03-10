@@ -1,0 +1,4 @@
+baseURL = "http://n-aia.github.io/"
+languageCode = "en-us"
+title = "Naïa's Portfolio"
+theme = "air"

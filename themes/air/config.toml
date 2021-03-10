@@ -1,0 +1,28 @@
+BaseUrl= "http://n-aia.github.io/"
+LanguageCode= "en-US"
+Title= "Naïa's Crato Portfolio"
+paginate = 5
+DisqusShortname = ""
+Copyright = "All rights reserved - 2016"
+canonifyurls = true
+
+[author]
+  name = "naia"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug"
+
+[params]
+  description = "Portfolio for Carto"
+  cover = "images/user.jpg"
+  author = "naia"
+  authorlocation = ""
+  bio= ""
+  logo = ""
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = "n-aia"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  mainSections = ["post"]
